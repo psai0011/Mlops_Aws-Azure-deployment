@@ -1,0 +1,7 @@
+setup.py
+Ml_Project_AWS_AZURE_Deployment.egg-info/PKG-INFO
+Ml_Project_AWS_AZURE_Deployment.egg-info/SOURCES.txt
+Ml_Project_AWS_AZURE_Deployment.egg-info/dependency_links.txt
+Ml_Project_AWS_AZURE_Deployment.egg-info/requires.txt
+Ml_Project_AWS_AZURE_Deployment.egg-info/top_level.txt
+src/__init__.py

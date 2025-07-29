@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: Ml_Project_AWS_AZURE_Deployment
+Version: 0.0.1
+Summary: Machine Learning Project for AWS and Azure Deployment
+Author: Saikiran
+Author-email: panthaganisai123@gmail.com
+Requires-Dist: pandas
+Requires-Dist: seaborn
+Requires-Dist: matplotlib
+Requires-Dist: numpy

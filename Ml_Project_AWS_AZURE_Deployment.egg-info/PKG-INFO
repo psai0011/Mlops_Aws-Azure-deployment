@@ -6,5 +6,4 @@ Author: Saikiran
 Author-email: panthaganisai123@gmail.com
 Requires-Dist: pandas
 Requires-Dist: seaborn
-Requires-Dist: matplotlib
 Requires-Dist: numpy

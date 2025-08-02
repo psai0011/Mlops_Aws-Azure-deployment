@@ -5,3 +5,13 @@ Ml_Project_AWS_AZURE_Deployment.egg-info/dependency_links.txt
 Ml_Project_AWS_AZURE_Deployment.egg-info/requires.txt
 Ml_Project_AWS_AZURE_Deployment.egg-info/top_level.txt
 src/__init__.py
+src/exception.py
+src/logger.py
+src/utils.py
+src/components/__init__.py
+src/components/data_ingestion.py
+src/components/data_transformation.py
+src/components/model_trainer.py
+src/components/pipeline/__init__.py
+src/components/pipeline/predict_pipeline.py
+src/components/pipeline/train_pipeline.py

@@ -7,3 +7,5 @@ Author-email: panthaganisai123@gmail.com
 Requires-Dist: pandas
 Requires-Dist: seaborn
 Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: scikit-learn

@@ -1,0 +1,8 @@
+[2025-08-03 14:20:10,120] 148 numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-08-03 14:20:10,120] 160 numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+[2025-08-03 14:20:11,426] 21 root - INFO - Entered the data ingestion method or component
+[2025-08-03 14:20:11,432] 24 root - INFO - Data read successfully from CSV
+[2025-08-03 14:20:11,434] 29 root - INFO - Raw data saved at: artifacts\raw.csv
+[2025-08-03 14:20:11,434] 32 root - INFO - Data split into train and test sets
+[2025-08-03 14:20:11,434] 36 root - INFO - Train and Test datasets saved successfully
+[2025-08-03 14:20:11,434] 58 root - INFO - Entered the data transformation method or component

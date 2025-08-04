@@ -1,0 +1,27 @@
+[2025-08-03 18:53:23,700] 148 numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-08-03 18:53:23,702] 160 numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+[2025-08-03 18:53:27,205] 23 root - INFO - Entered the data ingestion method or component
+[2025-08-03 18:53:27,214] 26 root - INFO - Data read successfully from CSV
+[2025-08-03 18:53:27,214] 38 root - INFO - Dataset columns after mapping: ['gender', 'race_ethnicity', 'parental level of education', 'lunch', 'test preparation course', 'math score', 'reading score', 'writing score']
+[2025-08-03 18:53:27,258] 43 root - INFO - Raw data saved at: artifacts\raw.csv
+[2025-08-03 18:53:27,260] 46 root - INFO - Data split into train and test sets
+[2025-08-03 18:53:27,266] 51 root - INFO - Train and Test datasets saved successfully
+[2025-08-03 18:53:27,266] 58 root - INFO - Entered the data transformation method or component
+[2025-08-03 18:53:27,311] 33 root - INFO - Splitting training and testing data
+[2025-08-03 18:53:27,311] 38 root - INFO - Training and tuning model: Random Forest
+[2025-08-03 18:53:31,100] 52 root - INFO - Random Forest -> Train R2: 0.9662, Test R2: 0.8523
+[2025-08-03 18:53:31,100] 38 root - INFO - Training and tuning model: Decision Tree
+[2025-08-03 18:53:32,756] 52 root - INFO - Decision Tree -> Train R2: 0.9736, Test R2: 0.7643
+[2025-08-03 18:53:32,758] 38 root - INFO - Training and tuning model: Gradient Boosting
+[2025-08-03 18:53:34,424] 52 root - INFO - Gradient Boosting -> Train R2: 0.9050, Test R2: 0.8724
+[2025-08-03 18:53:34,424] 38 root - INFO - Training and tuning model: Linear Regression
+[2025-08-03 18:53:35,647] 52 root - INFO - Linear Regression -> Train R2: 0.8726, Test R2: 0.8742
+[2025-08-03 18:53:35,647] 38 root - INFO - Training and tuning model: K-Neighbours Regressor
+[2025-08-03 18:53:36,161] 52 root - INFO - K-Neighbours Regressor -> Train R2: 0.6988, Test R2: 0.4756
+[2025-08-03 18:53:36,161] 38 root - INFO - Training and tuning model: CatBoost Regressor
+[2025-08-03 18:53:40,759] 52 root - INFO - CatBoost Regressor -> Train R2: 0.9874, Test R2: 0.8351
+[2025-08-03 18:53:40,759] 38 root - INFO - Training and tuning model: AdaBoost Regressor
+[2025-08-03 18:53:41,039] 52 root - INFO - AdaBoost Regressor -> Train R2: 0.8459, Test R2: 0.8483
+[2025-08-03 18:53:41,039] 38 root - INFO - Training and tuning model: XGBoost Regressor
+[2025-08-03 18:53:43,290] 52 root - INFO - XGBoost Regressor -> Train R2: 0.9009, Test R2: 0.8667
+[2025-08-03 18:53:43,290] 103 root - INFO - Best model found: Linear Regression with R2 score: 0.87423474624227

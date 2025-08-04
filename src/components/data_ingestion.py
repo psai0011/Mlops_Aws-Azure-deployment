@@ -63,10 +63,12 @@ if __name__ == "__main__":
     train_data_path, test_data_path = ingestion_obj.initiate_data_ingestion()
    
     transformation_obj = DataTransformation()
-    train_arr, test_arr, preprocessor_path = transformation_obj.initiate_data_transformation(train_data_path, test_data_path)
+    train_arr, test_arr, preprocessor_path = transformation_obj.initiate_data_transformation(
+        train_data_path, test_data_path
+    )
 
     model_trainer = ModelTrainer()
     model_trainer_config = ModelTrainerConfig()
    
-   # print(model_trainer.initiate_model_trainer(train_arr, test_arr, preprocessor_path))
+    print(model_trainer.initiate_model_trainer(train_arr, test_arr, preprocessor_path))
     logging.info("Data ingestion and transformation completed successfully")

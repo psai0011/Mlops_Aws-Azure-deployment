@@ -1,0 +1,8 @@
+[2025-08-04 11:48:47,865] 97 werkzeug - WARNING -  * Debugger is active!
+[2025-08-04 11:48:47,869] 97 werkzeug - INFO -  * Debugger PIN: 416-126-534
+[2025-08-04 11:48:54,989] 97 werkzeug - INFO - 127.0.0.1 - - [04/Aug/2025 11:48:54] "GET / HTTP/1.1" 200 -
+[2025-08-04 11:48:55,091] 97 werkzeug - INFO - 127.0.0.1 - - [04/Aug/2025 11:48:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-08-04 11:48:58,974] 97 werkzeug - INFO - 127.0.0.1 - - [04/Aug/2025 11:48:58] "GET / HTTP/1.1" 200 -
+[2025-08-04 11:48:59,014] 97 werkzeug - INFO - 127.0.0.1 - - [04/Aug/2025 11:48:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-08-04 12:08:43,504] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\panth\\Desktop\\Saikiran\\MLOPS\\END TO END DS_AWS\\artifacts\\application.py', reloading
+[2025-08-04 12:08:43,506] 97 werkzeug - INFO -  * Detected change in 'c:\\users\\panth\\desktop\\saikiran\\mlops\\end to end ds_aws\\artifacts\\application.py', reloading
